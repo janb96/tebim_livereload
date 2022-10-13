@@ -1,0 +1,8 @@
+version: '2'
+services:
+  livereload:
+    image: devcrea/livereload
+    ports:
+      - "35729:35729"
+    volumes:
+      - /your/watch/directory:/usr/src/livereload-watch
